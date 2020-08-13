@@ -14,12 +14,12 @@ class Counter extends Component {
 
   randomNumber = () => {
     this.setState({
-      number1: Math.floor(Math.random() * 49),
-      number2: Math.floor(Math.random() * 49),
-      number3: Math.floor(Math.random() * 49),
-      number4: Math.floor(Math.random() * 49),
-      number5: Math.floor(Math.random() * 49),
-      number6: Math.floor(Math.random() * 49),
+      number1: Math.ceil(Math.random() * 49),
+      number2: Math.ceil(Math.random() * 49),
+      number3: Math.ceil(Math.random() * 49),
+      number4: Math.ceil(Math.random() * 49),
+      number5: Math.ceil(Math.random() * 49),
+      number6: Math.ceil(Math.random() * 49),
     });
   };
 
