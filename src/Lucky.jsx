@@ -39,10 +39,10 @@ class Counter extends Component {
           <li>{this.state.number6}</li>
         </ul>
 
-        <button className="resetbutton" onClick={this.resetNumber}>
+        <button className="reset-button" onClick={this.resetNumber}>
           Reset
         </button>
-        <button className="luckybutton" onClick={this.randomNumber}>
+        <button className="lucky-button" onClick={this.randomNumber}>
           Show me lucky numbers
         </button>
       </div>
